@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.han.hidestatu.MainActivity">
+
+
+    <ScrollView
+        android:id="@+id/ss"
+        android:layout_width="167dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/s">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="test\n
+test\n
+test\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\n
+test\n
+test\n
+test\n
+test\n
+test\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\ntest\n
+test\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\ntest\n
+test\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\ntest\n
+test\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\ntest\n
+test\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\ntest\n
+test\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\ntest\n
+test\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\ntest\n
+test\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\ntest\n
+test\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\n" />
+    </ScrollView>
+
+
+    <com.han.hidestatu.HideStatuScrollView
+        android:id="@+id/s"
+        android:layout_width="188dp"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="test\n
+test\n
+test\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\ntest\n
+test\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\ntest\n
+test\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\ntest\n
+test\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\ntest\n
+test\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\ntest\n
+test\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\ntest\n
+test\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\ntest\n
+test\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\ntest\n
+test\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\ntest\n
+test\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\n
+test\n
+test\n
+test\n
+test\n
+test\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\ntest\n
+test\n" />
+
+    </com.han.hidestatu.HideStatuScrollView>
+
+</RelativeLayout>
